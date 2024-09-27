@@ -1,0 +1,9 @@
+/* Adicione isso ao seu CSS */
+.swal-title {
+    color: red; /* Cor do título */
+    font-size: 20px; /* Tamanho da fonte */
+}
+
+.swal-content {
+    color: blue; /* Cor do conteúdo */
+}
