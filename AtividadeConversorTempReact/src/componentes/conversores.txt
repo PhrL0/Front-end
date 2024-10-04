@@ -1,0 +1,60 @@
+const converteFerenheitCelsius = () => {
+        const celsiusTemp = parseFloat(celsius);
+        const farenheitTemp = parseFloat(farenheit);
+
+        if(!isNaN(celsiusTemp) && !isNaN(farenheitTemp)){
+            const resultado = (farenheitTemp - 32) * 5 / 9;
+            setResultado(resultado)
+        } else{
+            alert("Valores invalidos")
+        }
+    }
+
+    const converteCelsiusKelvin = () => {
+        const celsiusTemp = parseFloat(celsius);
+        const kelvinTemp = parseFloat(kelvin);
+
+        if(!isNaN(celsiusTemp) && !isNaN(kelvinTemp)){
+            const resultado = celsiusTemp + 273.15;
+            setResultado(resultado)
+        } else{
+            alert("Valores invalidos")
+        }
+    }
+
+    const converteKelvinCelsius = () => {
+        const celsiusTemp = parseFloat(celsius);
+        const kelvinTemp = parseFloat(kelvin);
+
+        if(!isNaN(celsiusTemp) && !isNaN(kelvinTemp)){
+            const resultado = kelvinTemp - 273.15
+            setResultado(resultado)
+        } else{
+            alert("Valores invalidos")
+        }
+    }
+
+    const converteFarenheitKelvin = () =>{
+        const farenheitTemp = parseFloat(farenheit);
+        const kelvinTemp = parseFloat(kelvin);
+
+        if(!isNaN(farenheitTemp) && !isNaN(kelvinTemp)){
+            const resultado = (farenheitTemp - 32) * (5/9) + 273.15
+            setResultado(resultado)
+        } else{
+            alert("Valores invalidos")
+        }
+    }
+
+    const converteKelvinFarenheit = () =>{
+        const farenheitTemp = parseFloat(farenheit);
+        const kelvinTemp = parseFloat(kelvin);
+
+        if(!isNaN(farenheitTemp) && !isNaN(kelvinTemp)){
+            const resultado = (kelvinTemp - 273.15) * (9/5) + 32
+            setResultado(resultado)
+        } else{
+            alert("Valores invalidos")
+        }
+
+    }
